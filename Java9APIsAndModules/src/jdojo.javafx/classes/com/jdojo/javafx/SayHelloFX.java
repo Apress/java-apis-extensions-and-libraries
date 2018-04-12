@@ -19,7 +19,7 @@ public class SayHelloFX extends Application {
 
     @Override
     public void start(Stage stage) {
-        // Set the preferred width of the lable
+        // Set the preferred width of the label
         msgLbl.setPrefWidth(150);
 
         // Set the ActionEvent handler for the button

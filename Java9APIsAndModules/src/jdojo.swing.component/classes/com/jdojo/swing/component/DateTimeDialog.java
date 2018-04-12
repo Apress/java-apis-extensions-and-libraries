@@ -31,7 +31,7 @@ public class DateTimeDialog extends JDialog {
         this.add(dateTimeLabel, BorderLayout.NORTH);
         this.add(okButton, BorderLayout.SOUTH);
 
-        // Add an action listeenr to the OK button
+        // Add an action listener to the OK button
         okButton.addActionListener(e -> DateTimeDialog.this.dispose());
     }
 

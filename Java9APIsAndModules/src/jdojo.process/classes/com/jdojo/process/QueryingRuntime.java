@@ -7,14 +7,14 @@ public class QueryingRuntime {
         Runtime rt = Runtime.getRuntime();
 
         // Get the JVM memory
-        long maxMemoery = rt.maxMemory();
+        long maxMemory = rt.maxMemory();
         long totalMemory = rt.totalMemory();
         long freeMemory = rt.freeMemory();
         long usedMemory = totalMemory - freeMemory;
 
-        System.out.format("Max memory = %d, Total memoery = %d,"
-                + "Free memoery = %d, Used memory = %d.%n", 
-                maxMemoery, totalMemory, freeMemory, usedMemory);
+        System.out.format("Max memory = %d, Total memory = %d,"
+                + "Free memory = %d, Used memory = %d.%n", 
+                maxMemory, totalMemory, freeMemory, usedMemory);
         
         // Print the number of processors available to the JVM
         int processors = rt.availableProcessors();

@@ -97,7 +97,7 @@ public class Expression {
     }
 
     public void parse() {
-        // Supported expressiona are of the form v1 op v2, where v1 and v2
+        // Supported expressions are of the form v1 op v2, where v1 and v2
         // are variable names or numbers, and op could be +, -, *, or /
 
         // Prepare the pattern for the expected expression

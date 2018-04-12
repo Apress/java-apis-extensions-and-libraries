@@ -26,7 +26,7 @@ public class ResultSetRowCountTest {
             // Execute the query  
             ResultSet rs = stmt.executeQuery(SQL);
 
-            // Make sure you got a bi-directional ReseutSet 
+            // Make sure you got a bi-directional ResultSet 
             int cursorType = rs.getType();
             if (cursorType == ResultSet.TYPE_FORWARD_ONLY) {
                 System.out.println("JDBC driver returned a forward - only cursor.");

@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class PipedIO {
     public static void main(String[] args) {
-        // Get the path of the java program that started thsi program
+        // Get the path of the java program that started this program
         String javaPath = ProcessHandle.current()
                                        .info()
                                        .command().orElse(null);        

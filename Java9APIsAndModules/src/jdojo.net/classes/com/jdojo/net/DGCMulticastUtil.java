@@ -10,5 +10,5 @@ public class DGCMulticastUtil {
        on your machine. Please run the ListNetworkInterfaces class to get 
        the list of all available network interface on your machine.
      */
-    public static final String MULTICAST_INTERFACE_NAME = "eth2";
+    public static final String MULTICAST_INTERFACE_NAME = "eth3";
 }

@@ -19,7 +19,7 @@ public class ResultSetMetaDataTest {
                     + "income as Income "
                     + "from person";
 
-            // Print the reSult set matadata
+            // Print the reSult set metadata
             printMetaData(conn, sql);
 
             JDBCUtil.commit(conn);

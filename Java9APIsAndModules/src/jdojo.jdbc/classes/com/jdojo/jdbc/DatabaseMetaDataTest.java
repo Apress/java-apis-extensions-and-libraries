@@ -29,7 +29,7 @@ public class DatabaseMetaDataTest {
             System.out.println("Driver Name: " + driverName);
             System.out.println("Driver Version: " + driverVersion);
 
-            System.out.printf("%nAbout the JDBD driver supported features...%n");
+            System.out.printf("%nAbout the JDBC driver supported features...%n");
             boolean ansi92BiEntry = dbmd.supportsANSI92EntryLevelSQL();
             boolean ansi92Intermediate = dbmd.supportsANSI92IntermediateSQL();
             boolean ansi92Full = dbmd.supportsANSI92FullSQL();

@@ -32,7 +32,7 @@ public class UniformTranslucentFrame extends JFrame {
         // Add a button to close the window 
         this.add(closeButton, BorderLayout.SOUTH);
 
-        // Exit the aplication when the close button is clicked
+        // Exit the application when the close button is clicked
         closeButton.addActionListener(e ->     System.exit(0));
     }
 

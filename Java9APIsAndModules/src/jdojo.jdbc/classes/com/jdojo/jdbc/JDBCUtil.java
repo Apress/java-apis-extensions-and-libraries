@@ -79,7 +79,7 @@ public class JDBCUtil {
         Connection conn = null;
         try {
             conn = JDBCUtil.getConnection();
-            System.out.println("Connetced to the database.");
+            System.out.println("Connected to the database.");
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {

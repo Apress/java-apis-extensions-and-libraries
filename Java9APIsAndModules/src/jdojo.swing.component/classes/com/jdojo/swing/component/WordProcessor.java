@@ -54,7 +54,7 @@ public class WordProcessor extends JFrame {
         buttonPanel.add(leftBtn);
         buttonPanel.add(rightBtn);
 
-        // Add ation event listeners to buttons
+        // Add action event listeners to buttons
         normalBtn.addActionListener(e -> setNewStyle("normal", true));
         boldBtn.addActionListener(e -> setNewStyle("bold", true));
         italicBtn.addActionListener(e -> setNewStyle("italic", true));
