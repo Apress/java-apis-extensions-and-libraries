@@ -1,6 +1,6 @@
 # Apress Source Code
 
-This repository accompanies [*Java APIs, Extensions and Libraries*](http://www.apress.com/9781484235454) by Kishori Sharan (Apress, ).
+This repository accompanies [*Java APIs, Extensions and Libraries*](http://www.apress.com/9781484235454) by Kishori Sharan (Apress, 2018).
 
 [comment]: #cover
 
